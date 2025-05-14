@@ -12,7 +12,7 @@ class MyString:
     else:
       print("The value must be a string.")  
   value = property(get_value, set_value)
-   def is_sentence(self):
+  def is_sentence(self):
     return self._value.endswith(".")
 
   def is_question(self):
